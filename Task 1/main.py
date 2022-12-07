@@ -19,7 +19,7 @@ users = [
 ]
 
 
-# uzduotis 1
+# function 1
 print("Funkcija 1:")
 
 def filterDogOwners(object):
@@ -31,7 +31,7 @@ filterDogOwners(users)
 #separation
 print("\n")
 
-# uzduotis 2
+# function 2
 
 print("Funkcija 2:")
 
