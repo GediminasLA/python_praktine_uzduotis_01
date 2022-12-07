@@ -1,5 +1,10 @@
 # Importuokite reikiamus modulius, kad veiktų žemiau nurodytos funkcijos
 
+from modules.math.composition import composition as addition
+from modules.math.division import division as divivsion
+from modules.math.subtraction import substraction as substraction
+from modules.math.multiplication import multiplication
+from modules.numbers.numbers import one, two, three, four, five
 
 # Kitų failų ir žemiau esančio kodo nekeiskite
 a = addition(one, four);
