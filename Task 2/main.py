@@ -19,3 +19,29 @@ users = [
   { "id": '8', "name": 'Simon Peterson', "age": 30 },
   { "id": '9', "name": 'Daniel Cane', "age": 51 },
 ]
+
+# function 1
+
+print("function 1:")
+
+def getUserAverageAge(object):
+  print(sum(d['age'] for d in object) / len(object))
+
+getUserAverageAge(users)
+
+#separation
+
+print("\n")
+
+#function 2
+
+print("function 2:")
+
+def getUserNames(object):
+  newlist = []
+  for user in users:
+    newlist.append(user['name'])
+  newlist.sort()
+  print(newlist)
+  
+getUserNames(users)
