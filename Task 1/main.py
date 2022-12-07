@@ -17,3 +17,26 @@ users = [
   { "id": '8', "name": 'Simon Peterson', "age": 30, "hasDog": False },
   { "id": '9', "name": 'Daniel Cane', "age": 51, "hasDog": True },
 ]
+
+
+# uzduotis 1
+print("Funkcija 1:")
+
+def filterDogOwners(object):
+  hasDogList = filter(lambda x: x['hasDog'] == True, object)
+  print(list(hasDogList))
+
+filterDogOwners(users)
+
+#separation
+print("\n")
+
+# uzduotis 2
+
+print("Funkcija 2:")
+
+def filterAdults(object):
+  adults = filter(lambda x: x['age'] >= 18, object)
+  print(list(adults))
+
+filterAdults(users)
